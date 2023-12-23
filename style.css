@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    background-color: rgb(44, 196, 170);
+}
+
+.main-header {
+    color: #fff;
+    padding: 15px 20px;
+    border: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* .nav-item {
+    margin-right: 20px;
+} */
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: #59ad44;
+    /* Change to your preferred hover color */
+}
+/* 
+li {
+    display: inline;
+} */
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    max-width: 600px;
+    margin: 20px;
+    /* background-color: red; */
+}
+.intro-text h1{
+    font-size: 4rem ;
+}
+h4, h1, h3 {
+    margin: 10px;
+    text-align: center ;
+
+}
+
+h4 {
+    color: #555;
+    font-size: 18px;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #666;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.description {
+    color: #777;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.More-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.More-button:hover {
+    background-color: #e93f3f;
+}
+.main_content {
+    text-align: center;
+    height: 100vh;
+    padding-top: 12rem;
+    font-size: 2rem;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+#about {
+    background-color: rgb(236, 229, 216);
+}
+
+.studies-section {
+    margin: 20px;
+}
+
+.section-title {
+    color: #333;
+    text-align: center;
+}
+
+.study-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.study-title {
+    color: #333;
+}
+
+.degree {
+    color: #666;
+}
+
+.study-duration {
+    color: #888;
+    margin: 0;
+}
+
+.contact-section {
+    margin: 20px;
+}
+
+.section-title {
+    color: #333;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form-submit {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-submit:hover {
+    background-color: #555;
+}
+
+.about-section {
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-title {
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+.interests-container {
+    margin-top: 20px;
+}
+
+.interests-title {
+    color: #333;
+}
+
+.interest-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.interest-item h4 {
+    color: #666;
+    font-size: 18px;
+    margin: 0;
+}
+
+.emoji {
+    font-size: 24px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 14px;
+}
